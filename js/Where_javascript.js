@@ -1,15 +1,5 @@
-
-**জাভাস্ক্রিপ্ট (JavaScript) লার্নিং সিরিজ**
-<!-- ================Class_01================= -->
 /*
-==============What Can JavaScript Do?=================
-1.Change inner html contant
-2.Can Change HTML Styles (CSS)
-3.Can Hide HTML Elements
-
-*/
-<!-- ================Class_02================= -->
-/*
+JavaScript Where To:
 1.in script tag
 2.in html head
 3.in external file
@@ -25,7 +15,7 @@ JavaScript Output:
 */
 
 
-// 1.innerHTML*/
+// 1.innerHTML
 // document.getElementById("day_two").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fuga.";
 
 
@@ -54,4 +44,4 @@ JavaScript Output:
 
 document.getElementById("inner").innerHTML = 1 + 5 ;
 
-console.log(14*20)
+console.log(14*20);
