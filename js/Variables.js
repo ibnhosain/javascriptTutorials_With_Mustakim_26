@@ -1,63 +1,47 @@
+/*
+!camelCase ব্যবহার করবে (isTeacherFullTime, teacherName)
+!প্রতিটি লাইনের শেষে ; দেওয়ার অভ্যাস করবে।
+!Variable-এর নাম এমন দেবে যাতে নাম দেখেই বোঝা যায় ভেতরে কী আছে।
+নাম (Double Quote /(Single Quote ব্যবহার করবে)
+*/
 
-{
-// let age = 20;
-// age = 21;
-// age = 22;
-// age = 25;
+let productName = "Soap";
+let productPrice = 80;
+let isProductAvailable = true ;
+let shopName = "i'm Shope";
 
-// const marks = 80;
-// console.log(age, marks);
-}
-
-
-
-
-{
-//  let styling = document.getElementById("lorem");
-//     color = styling;
-//     font = styling;
-//     align = styling;
-
-// color.style.color = "red";
-// font.style.fontSize = "40px";
-// align.style.textAlign= "center";
-
-}
+console.log(productName);
+console.log(productPrice);
+console.log(isProductAvailable);
+console.log(shopName);
 
 
-{
-// String
-// let color = "Yellow";
-// let lastName = "";
+/* 
+?🎯 Coding Challenge
+*নিচের ৫টি Variable তৈরি করো।
 
-// // Number
-// let length = 16;
-// let weight = 7.5;
-
-
-// // Boolean
-// let x = true;
-// let y = false;
-
-}
-
-
-// let math = "40";
-// let bangla = 60;
-
-// console.log(math + bangla);
+Product Name
+Product Price
+Product Stock
+Product Available (true/false)
+Shop Name
+*📌 শর্ত
+!সব Variable Name হবে camelCase।
+!অর্থপূর্ণ নাম হবে।
+!প্রতিটি লাইনের শেষে ; থাকবে।
+!Reserved Keyword ব্যবহার করা যাবে না।
+*/
 
 
-// let a = 50;
-// let b = 60;
-//  let x = a < b;
+/*
+?🎯 Coding Challenge
+*নিচের তথ্যের জন্য camelCase ব্যবহার করে ৫টি Variable লিখো।
 
-//  console.log(x);
- 
+বইয়ের নাম
+লেখকের নাম
+বইয়ের দাম
+বইটি কি Available? (true/false)
+প্রকাশকের নাম
+!⚠️ সব Variable Name অর্থপূর্ণ হবে।
+*/
 
- // let a = "abid";
-
- // console.log (typeof a);
-
- // let a = 100;
- // console.log( typeof a);

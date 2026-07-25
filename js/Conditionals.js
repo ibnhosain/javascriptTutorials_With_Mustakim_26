@@ -1,48 +1,55 @@
 
 //Conditionals
 
-{
- let a = 20;
- //if condition
- if (a > 18) {
-  document.write("hello , I am condition");
- }
+// {
+//  let a = 20;
+//  //if condition
+//  if (a > 18) {
+//   document.write("hello , I am condition");
+//  }
 
-}
+// }
 
 
-//if ....else
+// //if ....else
 
-{
- let man = 45;
+// {
+//  let man = 45;
 
- if (man > 60) {
-  console.log("Your are rich");
- } else {
-  console.log("You are not rich");
- }
-}
+//  if (man > 60) {
+//   console.log("Your are rich");
+//  } else {
+//   console.log("You are not rich");
+//  }
+// }
 
-//if ...else ...if
-{
- let man = 40;
- let isHasCar = true;
+// //if ...else ...if
+// {
+//  let man = 40;
+//  let isHasCar = true;
 
-if (man > 50 ) {
-  console.log("Your are rich");
-} else if(isHasCar){
-  console.log("Your are rich");
-}else{
- console.log("You are not rich");
-}
+// if (man > 50 ) {
+//   console.log("Your are rich");
+// } else if(isHasCar){
+//   console.log("Your are rich");
+// }else{
+//  console.log("You are not rich");
+// }
 
- }
+//  }
 
  //ternary (? :)
 
- {
-  let a = 50;
-  a > 40 ? console.log("you are man"): console.log("you are no man");
- }
+//  {
+//   let a = 50;
+//   a > 40 ? console.log("you are man"): console.log("you are no man");
+//  }
 
  
+
+
+for (let i = 1; i <= 10; i++) {
+if(i% 2 ===0){
+    console.log(i);
+}
+}
